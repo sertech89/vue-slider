@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: wheat;
+}
+
+.bg-custom{
+    background-color: #AC4437;
+    border: 8px solid #851c0e;
+  }
+  .altezza{
+    height: 600px;
+    width: 1000px;
+  }
+  .cont-img{
+    position: relative;
+  }
+  .sfondo_cerchietto{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+  }
+  .cerchietto{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+  }
+  .bg_white{
+    background-color:white;
+  }
+  .bg_blu{
+    background-color: blue;
+  }
