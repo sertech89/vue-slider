@@ -26,18 +26,24 @@
     <main class="container mt-5">
 
       <!-- Slider -->
+
       <div class="container-fluid mb-5">
+
         <div class="row ">
           
           <div class="col-12 d-flex align-items-center justify-content-center">
+
             <button class="bg-transparent border-0 fs-2" type="button" @click="frecciaDestra"><i class="fa-solid fa-chevron-left"></i></button>
+
             <div class="cont-img">
+              
               <img class="mx-3  altezza" :src="immagini[numero]" alt="">
               <div class="sfondo_cerchietto d-flex align-items-center justify-content-center">
                 <button id="btn_sx" type="button" class="cerchietto bg-success mx-2" @click="bottone_sinistra"></button>
                 <button id="btn_cc" type="button" class="cerchietto bg-white mx-2" @click="bottone_centro"></button>
                 <button id="btn_dx" type="button" class="cerchietto bg-danger mx-2" @click="bottone_destra"></button>
               </div>
+
             </div>
             
             <button class="bg-transparent border-0 fs-2" type="button" @click="frecciaDestra"><i class="fa-solid fa-chevron-right"></i></button>
