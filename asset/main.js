@@ -90,20 +90,20 @@ var app = new Vue(
           return total;
         },
         frecciaDestra: function(){
-              this.numero= this.numero+1;
+              this.numero = this.numero+1;
               console.log(this.numero)
                if(this.numero > this.immagini.length - 1){
-                 this.numero=0
+                 this.numero = 0
                }
               return this.numero
         },
         frecciaSinistra: function(){
-          this.numero= this.numero-1;
+          this.numero = this.numero-1;
           console.log(this.numero)
            if(this.numero < 0){
-             this.numero=this.immagini.length - 1
+             this.numero = this.immagini.length - 1
            }
-          return this.numero
+          //return this.numero (NON SERVE)
         },
         bottone_destra: function(){
           this.numero=0
